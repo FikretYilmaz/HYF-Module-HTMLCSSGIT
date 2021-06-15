@@ -1,0 +1,28 @@
+
+
+    /*Tablet Side*/
+
+@media screen and (max-width: 1024px){
+
+      /*Tablet flex*/
+  .grid-flex li:nth-child(1){
+    flex:1 1 47%  
+  }
+  .grid-flex li:nth-child(2){
+    flex:1 1 47%  
+  }
+  .grid-flex li:nth-child(n+3){/*When we use '2' it's began to cadd or count from zero'2'*/
+    flex: 1 1 31%;
+  } 
+
+      /*Tablet Float*/
+.grid-floats li:first-child{
+  width: 47.9%;  
+}
+section:nth-child(1) ul li:nth-child(2){
+  width: 47.9%;  
+}
+section:nth-child(1) ul li:nth-child(n+3){
+  width: 31.5%;    
+}
+}

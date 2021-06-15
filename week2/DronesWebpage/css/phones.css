@@ -1,0 +1,12 @@
+     /*Phone Side*/
+
+@media screen and (max-width: 600px) {
+/*Phones Flex Grid*/
+  .grid-flex li:nth-child(n+0){
+    flex:1 1 100%;
+}
+/*Phones Float*/
+  section:nth-child(1) ul li:nth-child(n+0){
+    width: 100%;    
+}
+}

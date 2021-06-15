@@ -1,0 +1,30 @@
+/*Desktop Side*/
+/*Desktop Flex*/
+.grid-flex{
+  display: flex;  
+  flex-wrap:wrap;  
+}
+.grid-flex li:nth-child(1){
+  flex:0 0 48.5%  
+}
+.grid-flex li:nth-child(n+2){/*When we use '2' it's began to cadd or count from zero'2'*/
+  flex: 0 0 24%;
+} 
+
+/*Desktop Float*/
+section:nth-child(1) ul{ /*The UL in the First section*/
+  float: left;    
+}
+.grid-floats li{
+  float: left;
+  width: 100%;
+}
+.grid-floats li:first-child{
+  width: 47.5%;
+  height: 450px; 
+}
+section:nth-child(1) ul li:nth-child(n+2){
+  width: 23.5%;
+  height: 450px;   
+}
+
