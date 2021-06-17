@@ -3,4 +3,4 @@ cd ==> I use this command for "change (current) my directory". It is the one of 
 mkdir ==> I use this command to "make a new directory(folder)".
 With "mkdir -p parent/child1/child1-A/..." we can create multiple nested directories.
 
-rm ==> "remove" With this command "rm <filename> we can delete a file. Also use "rm *" we can delete all of file in our current directory
+rm ==> "remove" With this command "rm <filename> we can delete a file. Also use "rm *" we can delete all of file in our current directoryHello world222
